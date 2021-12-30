@@ -13,7 +13,7 @@ Nesse, masi completo foi feito um CRUD(Create, Read, Update and Delete), podendo
 - Editar um filme da lista;
 - Apagar um filme da lista.
 
-### Visualize o projeto nesse link: [Movie Cards Library Stateful](https://marcuscps19.github.io/movie-cards-library-stateful/)
+### Visualize o projeto nesse link: [Movie Cards Library CRUD](https://marcuscps19.github.io/movie-cards-library-crud/)
 
 ### Principais tecnologias utilizadas:
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -38,10 +38,10 @@ Nesse, masi completo foi feito um CRUD(Create, Read, Update and Delete), podendo
 
 ```bash
 # Clone o repositório:
-git clone https://github.com/Marcuscps19/movie-cards-library-stateful.git
+git clone https://github.com/Marcuscps19/movie-cards-library-crud.git
 
 # Entre no diretório
-cd movie-cards-library-stateful
+cd movie-cards-library-crud
 
 # Instale as depêndencias
 npm install
