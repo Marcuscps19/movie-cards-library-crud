@@ -7,7 +7,7 @@ Atualizado em: 30/12/2021
 
 ### Descrição:
 Continuidade dos projetos Movie Card Library e Movie Card Library Stateful.
-Nesse, masi completo foi feito um CRUD(Create, Read, Update and Delete), podendo realizar as seguintes operações no projeto:
+Nesse projeto foi feito o CRUD(Create, Read, Update and Delete), podendo realizar as seguintes operações no projeto:
 - Adicionar um novo filme a lista;
 - Listar todos os filmes cadastrados, com uma página de informações resumidas sobre cada filme e uma página de informações detalhadas de um filme selecionado.;
 - Editar um filme da lista;

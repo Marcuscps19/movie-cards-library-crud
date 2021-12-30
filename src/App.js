@@ -10,7 +10,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <Switch>
         <Route path="/movies/new" component={ NewMovie } />
