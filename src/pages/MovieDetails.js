@@ -37,13 +37,25 @@ class MovieDetails extends Component {
     return movie.length === 0 ? (
       <Loading>Carregando...</Loading>
     ) : (
-      <div data-testid="movie-details">
+      <div data-testid="movie-details" className="movie-details">
         <h1>{title}</h1>
         <img alt="Movie Cover" src={ `../${imagePath}` } />
-        <p>{`Subtitle: ${subtitle}`}</p>
-        <p>{`Storyline: ${storyline}`}</p>
-        <p>{`Genre: ${genre}`}</p>
-        <p>{`Rating: ${rating}`}</p>
+        <p>
+          <span className="title-info">Subtitle: </span>
+          {`${subtitle}`}
+        </p>
+        <p>
+          <span className="title-info">Storyline: </span>
+          {`${storyline}`}
+        </p>
+        <p>
+          <span className="title-info">Genre: </span>
+          {`${genre}`}
+        </p>
+        <p>
+          <span className="title-info">Rating: </span>
+          {`${rating}`}
+        </p>
         <ul>
           <li>
             <Link to="/">VOLTAR</Link>
